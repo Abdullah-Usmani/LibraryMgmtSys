@@ -1,5 +1,6 @@
 import ListGroup from "./components/ListGroup";
 import * as Elements from "./components/Elements";
+import "./App.css";
 // import Message from "./Wapda";
 
 function App() {
