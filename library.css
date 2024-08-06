@@ -1,0 +1,71 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #000;
+    color: #0ff; /* Neon Cyan */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ff0; /* Neon Yellow */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #0ff; /* Neon Cyan */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav a:hover {
+    color: #ff0; /* Neon Yellow */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #0ff; /* Neon Cyan */
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000;
+    color: #ff0; /* Neon Yellow */
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid #0ff; /* Neon Cyan */
+}
